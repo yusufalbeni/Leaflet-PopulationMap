@@ -1,3 +1,3 @@
-# Leaflet İnteraktif Nüfus Haritası
+# İnteraktif Nüfus Haritası
 
 https://yusufalbeni.github.io/Leaflet-PopulationMap/
