@@ -2,4 +2,4 @@
 
 Leaflet Js harita kütüphanesi kullanılarak geliştirilmiş etkileşimli Nüfus Haritası örneği.
 
-https://yusufalbeni.github.io/Leaflet-PopulationMap/
+https://yusufalbeni.github.io/Population-Map/
