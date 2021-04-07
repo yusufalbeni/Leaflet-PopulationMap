@@ -22,18 +22,10 @@
       zoomControl: false
     }).setView([40.0100708, 34.9986292], 5, );
 
-    var layer1 = L.tileLayer('http://services.arcgisonline.com/arcgis/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}')
-    var layer2 = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}')
-    var layer3 = L.tileLayer('http://services.arcgisonline.com/arcgis/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}')
-    var layer4 = L.tileLayer('http://services.arcgisonline.com/arcgis/rest/services/Ocean/World_Ocean_Base/MapServer/tile/{z}/{y}/{x}')
-    var layer5 = L.tileLayer('https://maps.heigit.org/openmapsurfer/tiles/roads/webmercator/{z}/{x}/{y}.png')
+    var layer1 = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png')
 
     var baseMaps = {
-      "Temel": layer1,
-      "Uydu": layer2,
-      "Gece": layer3,
-      "Okyanus": layer4,
-      "Fiziki": layer5
+      "Temel": layer1
     };
     L.control.layers(baseMaps, null, {
       collapsed: false,
